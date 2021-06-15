@@ -8,6 +8,12 @@ A simple API to generate short URLS
 - Each URL has an unique identifier, which is converted to base 62 and form the unique short URL hash
 - SQLite database; URL stats table to track the number of visits
 
+## Tech Stack
+
+- FastAPI
+- SQLAlchemy
+- SQLite
+- Docker
 
 ## Run locally
 
