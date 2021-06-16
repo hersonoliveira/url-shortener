@@ -9,8 +9,6 @@ from urlshortener.queries import (create_url, create_url_stat,
 from urlshortener.schemas import UrlSchema
 from urlshortener.utils import generate_short_url
 
-# Create db tables
-urlshortener.models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="URL Shortener"
